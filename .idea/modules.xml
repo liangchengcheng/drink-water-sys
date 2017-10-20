@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/drink-water-api/drink-water-api.iml" filepath="$PROJECT_DIR$/drink-water-api/drink-water-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drink-water-base/drink-water-base.iml" filepath="$PROJECT_DIR$/drink-water-base/drink-water-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drink-water-server/drink-water-server.iml" filepath="$PROJECT_DIR$/drink-water-server/drink-water-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drink-water-service/drink-water-service.iml" filepath="$PROJECT_DIR$/drink-water-service/drink-water-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drink-water-sys.iml" filepath="$PROJECT_DIR$/drink-water-sys.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drink-water-web/drink-water-web.iml" filepath="$PROJECT_DIR$/drink-water-web/drink-water-web.iml" />
+    </modules>
+  </component>
+</project>
