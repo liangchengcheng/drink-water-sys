@@ -1,6 +1,7 @@
 package com.lcc.water.common.cache.impl;
 
 import com.lcc.water.common.cache.ICache;
+import com.lcc.water.common.util.JsonHelper;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
