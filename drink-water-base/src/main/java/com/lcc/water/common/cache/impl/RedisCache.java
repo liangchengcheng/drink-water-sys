@@ -76,11 +76,9 @@ public class RedisCache implements ICache {
 
     @Override
     public boolean containsKey(String scope, String key) {
-
         Jedis jedis = null;
         try {
             jedis = jedisPool.getResource();
-
             return jedis.exists(obtainKey(scope, key));
         } finally {
             jedis.close();
@@ -94,11 +92,9 @@ public class RedisCache implements ICache {
      */
     @Override
     public String get(String scope, String key) {
-
         Jedis jedis = null;
         try {
             jedis = jedisPool.getResource();
-
             return jedis.get(obtainKey(scope, key));
         } finally {
             jedis.close();
@@ -113,16 +109,13 @@ public class RedisCache implements ICache {
      */
     @Override
     public <T> T getObject(String scope, String key, Class<T> objClass) {
-
         Jedis jedis = null;
         try {
             jedis = jedisPool.getResource();
-
             if (key != null && objClass != null && jedis.exists(obtainKey(scope, key))) {
                 String jsonVal = jedis.get(obtainKey(scope, key));
                 return JsonHelper.getInstance().getObject(jsonVal, objClass);
             }
-
             return null;
         } finally {
             jedis.close();
@@ -137,11 +130,9 @@ public class RedisCache implements ICache {
      */
     @Override
     public <T> T getObject(String scope, String key, Class<T> objClass, Class<?> actualTypeClass) {
-
         Jedis jedis = null;
         try {
             jedis = jedisPool.getResource();
-
             if (key != null && objClass != null && jedis.exists(obtainKey(scope, key))) {
                 String jsonVal = jedis.get(obtainKey(scope, key));
                 return JsonHelper.getInstance().getObject(jsonVal, objClass, actualTypeClass);
@@ -196,13 +187,11 @@ public class RedisCache implements ICache {
      */
     @Override
     public void put(String scope, String key, Object value, int expired) {
-
         Jedis jedis = null;
         try {
             jedis = jedisPool.getResource();
             if (key != null) {
                 String jsonVal = JsonHelper.getInstance().getJsonString(value == null ? "" : value);
-
                 if (expired > 0) {
                     jedis.setex(obtainKey(scope, key), expired, jsonVal);
                 } else {
@@ -221,7 +210,6 @@ public class RedisCache implements ICache {
      */
     @Override
     public void remove(String scope, String key) {
-
         Jedis jedis = null;
         try {
             jedis = jedisPool.getResource();
