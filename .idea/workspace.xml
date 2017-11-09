@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d3bbd49-8805-4f93-840a-9c1a25676566" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drink-water-base/src/main/java/com/lcc/water/common/base/BaseMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drink-water-base/src/main/java/com/lcc/water/common/base/BaseService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drink-water-base/src/main/java/com/lcc/water/common/base/BaseController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drink-water-base/src/main/java/com/lcc/water/common/base/BaseServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,11 +21,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BaseMapper.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BaseMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/drink-water-base/src/main/java/com/lcc/water/common/base/BaseMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drink-water-base/src/main/java/com/lcc/water/common/base/BaseController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/drink-water-base/src/main/java/com/lcc/water/common/base/BaseServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,6 +103,8 @@
         <option value="$PROJECT_DIR$/drink-water-base/src/main/java/com/lcc/water/common/util/JsonHelper.java" />
         <option value="$PROJECT_DIR$/drink-water-base/src/main/java/com/lcc/water/common/base/BaseService.java" />
         <option value="$PROJECT_DIR$/drink-water-base/src/main/java/com/lcc/water/common/base/BaseMapper.java" />
+        <option value="$PROJECT_DIR$/drink-water-base/src/main/java/com/lcc/water/common/base/BaseController.java" />
+        <option value="$PROJECT_DIR$/drink-water-base/src/main/java/com/lcc/water/common/base/BaseServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -89,8 +115,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="740" />
-    <option name="y" value="296" />
+    <option name="x" value="320" />
+    <option name="y" value="65" />
     <option name="width" value="1236" />
     <option name="height" value="736" />
   </component>
@@ -348,15 +374,15 @@
       <workItem from="1508888759235" duration="1543000" />
       <workItem from="1508977358416" duration="1052000" />
       <workItem from="1509369311875" duration="7000" />
-      <workItem from="1510268535343" duration="764000" />
+      <workItem from="1510268535343" duration="860000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3788000" />
+    <option name="totallyTimeSpent" value="3884000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="740" y="296" width="1236" height="736" extended-state="0" />
+    <frame x="320" y="65" width="1236" height="736" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -783,6 +809,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drink-water-base/src/main/java/com/lcc/water/common/base/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drink-water-base/src/main/java/com/lcc/water/common/base/BaseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
