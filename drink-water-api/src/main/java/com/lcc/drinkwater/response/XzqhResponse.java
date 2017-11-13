@@ -3,9 +3,6 @@ package com.lcc.drinkwater.response;
 import java.io.Serializable;
 import java.util.List;
 
-/**
- * Created by yangjiahui on 2017/7/31.
- */
 public class XzqhResponse implements Serializable {
 
     private String id;

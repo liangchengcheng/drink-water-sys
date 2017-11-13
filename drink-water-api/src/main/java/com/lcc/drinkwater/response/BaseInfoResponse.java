@@ -1,12 +1,9 @@
 package com.lcc.drinkwater.response;
 
-import com.hdsx.drinkwater.excel.annotation.ExcelField;
+import com.lcc.drinkwater.excel.annotation.ExcelField;
 
 import java.io.Serializable;
 
-/**
- * Created by sk on 2017/8/7.
- */
 public class BaseInfoResponse implements Serializable {
 
     private static final long serialVersionUID = 1L;

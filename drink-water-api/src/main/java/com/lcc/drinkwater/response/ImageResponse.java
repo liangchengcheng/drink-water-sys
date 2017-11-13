@@ -4,9 +4,7 @@ import com.google.gson.annotations.SerializedName;
 
 import java.io.Serializable;
 
-/**
- * Created by sk on 2017/7/19.
- */
+
 public class ImageResponse implements Serializable {
 
     private static final long serialVersionUID = 1L;

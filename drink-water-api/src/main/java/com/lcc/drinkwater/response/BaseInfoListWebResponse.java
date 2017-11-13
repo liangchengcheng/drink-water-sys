@@ -1,12 +1,9 @@
 package com.lcc.drinkwater.response;
 
 import com.google.gson.annotations.SerializedName;
-
 import java.io.Serializable;
 
-/**
- * Created by sk on 2017/7/27.
- */
+
 public class BaseInfoListWebResponse implements Serializable {
 
     private static final long serialVersionUID = 1L;

@@ -1,12 +1,9 @@
 package com.lcc.drinkwater.response;
 
 import com.google.gson.annotations.SerializedName;
-
 import java.io.Serializable;
 
-/**
- * Created by yangjiahui on 2017/8/1.
- */
+
 public class GeoResponse implements Serializable{
 
     @SerializedName("id")

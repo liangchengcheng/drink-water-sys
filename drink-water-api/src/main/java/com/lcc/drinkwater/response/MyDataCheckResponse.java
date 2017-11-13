@@ -5,9 +5,6 @@ import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
 import java.util.Date;
 
-/**
- * Created by yangjiahui on 2017/8/8.
- */
 public class MyDataCheckResponse  implements Serializable {
 
     @SerializedName("id")

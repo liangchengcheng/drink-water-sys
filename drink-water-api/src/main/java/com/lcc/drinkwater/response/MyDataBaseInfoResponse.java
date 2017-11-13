@@ -4,9 +4,6 @@ import com.google.gson.annotations.SerializedName;
 
 import java.io.Serializable;
 
-/**
- * Created by yangjiahui on 2017/8/8.
- */
 public class MyDataBaseInfoResponse  implements Serializable {
 
     @SerializedName("id")

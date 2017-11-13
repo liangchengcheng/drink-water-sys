@@ -2,11 +2,8 @@ package com.lcc.drinkwater.response;
 
 import java.io.Serializable;
 
-/**
- * Created by yangjiahui on 2017/8/15.
- */
-public class TeamMerberAppResponse implements Serializable{
 
+public class TeamMerberAppResponse implements Serializable{
 
     private String ti;
     private String ui;

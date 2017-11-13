@@ -1,8 +1,6 @@
 package com.lcc.drinkwater.response;
 
-/**
- * Created by yangjiahui on 2017/8/21.
- */
+
 public class UnitReponse {
 
     private String code;

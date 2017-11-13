@@ -2,9 +2,7 @@ package com.lcc.drinkwater.response;
 
 import java.io.Serializable;
 
-/**
- * Created by yangjiahui on 2017/8/15.
- */
+
 public class TeamResponse implements Serializable {
 
     private String teamId;

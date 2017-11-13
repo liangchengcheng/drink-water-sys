@@ -5,9 +5,6 @@ import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
 import java.util.Date;
 
-/**
- * Created by sk on 2017/8/3.
- */
 public class ZzqkRecordResponse implements Serializable {
     private static final long serialVersionUID = 1L;
 

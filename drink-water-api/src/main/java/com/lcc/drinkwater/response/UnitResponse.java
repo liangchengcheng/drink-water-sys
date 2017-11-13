@@ -5,9 +5,7 @@ import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
 import java.util.List;
 
-/**
- * Created by yangjiahui on 2017/7/24.
- */
+
 public class UnitResponse implements Serializable {
 
     @SerializedName("unitCode")

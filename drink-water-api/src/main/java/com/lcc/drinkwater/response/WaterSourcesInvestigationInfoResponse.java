@@ -5,9 +5,6 @@ import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
 import java.util.Date;
 
-/**
- * Created by sk on 2017/7/18.
- */
 //查询情况详情
 public class WaterSourcesInvestigationInfoResponse implements Serializable {
 

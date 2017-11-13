@@ -1,12 +1,11 @@
 package com.lcc.drinkwater.response;
 
-import com.hdsx.drinkwater.excel.annotation.ExcelField;
+
+import com.lcc.drinkwater.excel.annotation.ExcelField;
 
 import java.io.Serializable;
 
-/**
- * Created by yangjiahui on 2017/8/4.
- */
+
 public class RenovateStatisticsResponse implements Serializable {
 
 

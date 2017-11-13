@@ -2,9 +2,6 @@ package com.lcc.drinkwater.response;
 
 import java.io.Serializable;
 
-/**
- * Created by sk on 2017/7/27.
- */
 public class RemediationResponse implements Serializable {
 
     private static final long serialVersionUID = 1L;

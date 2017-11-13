@@ -2,9 +2,7 @@ package com.lcc.drinkwater.response;
 
 import com.google.gson.annotations.SerializedName;
 
-/**
- * Created by yangjiahui on 2017/7/28.
- */
+
 public class HjlxRecordResponse {
 
     @SerializedName("id")

@@ -4,9 +4,7 @@ import com.google.gson.annotations.SerializedName;
 
 import java.io.Serializable;
 
-/**
- * Created by sk on 2017/7/28.
- */
+
 public class QuestionListResponse implements Serializable {
 
     private static final long serialVersionUID = 1L;
