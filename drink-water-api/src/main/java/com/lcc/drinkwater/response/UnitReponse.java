@@ -1,0 +1,27 @@
+package com.lcc.drinkwater.response;
+
+/**
+ * Created by yangjiahui on 2017/8/21.
+ */
+public class UnitReponse {
+
+    private String code;
+
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
+
+    public String getCodeNew() {
+        return codeNew;
+    }
+
+    public void setCodeNew(String codeNew) {
+        this.codeNew = codeNew;
+    }
+
+    private String codeNew;
+}
